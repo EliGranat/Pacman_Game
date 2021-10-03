@@ -160,11 +160,11 @@ function buildBoard() {
 }
 
 function eatFood() {
-    gPlayEatSound = new Audio('../audio/eatsound.mp3');
+    gPlayEatSound = new Audio('./audio/eatsound.mp3');
     gPlayEatSound.play();
     if (gGame.eatingCounter === 1) {
         gTimerInterval = setInterval(myTimer, 1);
-        gPlayMusic = new Audio('../audio/pac.mp3');
+        gPlayMusic = new Audio('./audio/pac.mp3');
         gPlayMusic.play();
     }
 
