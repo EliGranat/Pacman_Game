@@ -1,6 +1,6 @@
 'use strict';
-const PACMAN = '<img class="miniPac" src="../img/pac.png">';
-const POWER_FOOD = '<img class="buttonpower" src="../img/power.svg">';
+const PACMAN = '9';
+const POWER_FOOD = '6';
 var gPacman;
 
 function createPacman(board) {
