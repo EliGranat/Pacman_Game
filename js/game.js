@@ -22,7 +22,7 @@ var gGame = {
     eatingCounter: 0,
     isOn: false
 };
-
+window.onload=init;
 function init() {
     document.addEventListener('keyup', changeMoveImgPac);
     gBoard = buildBoard();
