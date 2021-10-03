@@ -24,7 +24,7 @@ var gGame = {
 };
 window.onload=init;
 function init() {
-    document.addEventListener('keyup', changeMoveImgPac);
+    document.addEventListener('keydown', changeMoveImgPac);
     gBoard = buildBoard();
     createPacman(gBoard);
     createGhosts(gBoard);
