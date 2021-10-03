@@ -60,13 +60,13 @@ body {
 }
 
 .ghost {
-    mask-image: url(../img/ghost.svg);
+   
     width: 25px;
     height: 25px;
     mask-size: 25px 25px;
     mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
-    -webkit-mask-image: url(../img/ghost.svg);
+   
     text-indent: -9999px;
 }
 
